@@ -44,7 +44,7 @@ def submit():
        
         request_url = f"https://{username}:{token}@{url}"
         
-        parent_dir="var/projects/"
+        parent_dir="/var/projects"
 
         path = os.path.join(parent_dir,Project_name)
         
